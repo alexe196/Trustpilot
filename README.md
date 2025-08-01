@@ -1,4 +1,5 @@
-## Trustpilot Parser Laravel 11 | PHP 8.2 | MySql 5.7
+## Trustpilot Parser Laravel 11 | PHP 8.2 | MySql 5.7 | Composer version 2.7.4 | node -v22.14.0
+
 
 Описание
 
@@ -11,6 +12,8 @@
    npm install, <br>
    npm run build <br>
    php artisan migrate <br>
+   php artisan key:generate <br>
+   php artisan storage:link <br>
    Дамп базы прилагается, но он не нужен потому как миграция установит все таблицы
 
 ## База данных называется: trustpilot-parce
@@ -47,6 +50,8 @@ php artisan queue:work - для активации очереди <br>
 php artisan app:parse-trustpilot-reviews - для запуска парсера <br>
 после окончания загрузки, будет указано в консоли - Все загруженно в базу! 
 <br> в админ части можете скачать CSV как описано выше
+<br> все кртинки будут загружаться в каталог storage/app/public/image <br>
+а все данные будут загружены в таблицу reviews
 
 
 
