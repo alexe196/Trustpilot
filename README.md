@@ -46,12 +46,14 @@ https://www.trustpilot.com/review/wazbee.casino <br>
 скачивайте csv файл после парсинга сайта
 
 ## Для того что спарсить сайт,пропишите в консоли проекта
-php artisan queue:work - для активации очереди <br>
-php artisan app:parse-trustpilot-reviews - для запуска парсера <br>
+## php artisan queue:work - для активации очереди <br>
+## php artisan app:parse-trustpilot-reviews - для запуска парсера <br>
 после окончания загрузки, будет указано в консоли - Все загруженно в базу! 
 <br> в админ части можете скачать CSV как описано выше
 <br> все кртинки будут загружаться в каталог storage/app/public/image <br>
 а все данные будут загружены в таблицу reviews
+все логи пишутся в фаил storage/logs/laravel.log
+## В корне проекта в архиве Data.rar находятся db, image и reviews.csv уже с спарсеными данными
 
 
 
