@@ -1,4 +1,4 @@
-## Trustpilot Parser Laravel 11 | PHP 8.2 | MySql 5.7 | Composer version 2.7.4 | node -v22.14.0
+## Trustpilot Parser Laravel 11 | PHP 8.3 | MySql 5.7 | Composer version 2.7.4 | node -v22.14.0
 
 
 Описание
